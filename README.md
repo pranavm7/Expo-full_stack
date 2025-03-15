@@ -35,6 +35,7 @@ cd ./app && npx expo start
 
 Terminal 2 to serve the backend:
 ```sh
+mkdir ./backend/data/db
 cd ./backend && mongod --dbpath ./data/db 
 ```
 
