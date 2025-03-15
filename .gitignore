@@ -142,4 +142,6 @@ dist
 expo-env.d.ts
 # @end expo-cli
 
+# custom
+app/package-lock.json
 backend/data
