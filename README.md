@@ -26,7 +26,7 @@ And we should be good to go! 🚀
 
 ### Running the application:  
 
-Start 2 different terminals
+Start 3 different terminals
 
 Terminal 1 to serve the frontend:  
 ```sh
@@ -36,6 +36,12 @@ cd ./app && npx expo start
 Terminal 2 to serve the backend:
 ```sh
 cd ./backend && mongod --dbpath ./data/db 
+```
+
+Terminal 3 to serve the middleware:
+
+```sh
+cd ./backend && node server.js
 ```
 ---
 
